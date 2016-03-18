@@ -1,8 +1,10 @@
-#include <QCoreApplication>
+#include <iostream>
 
-int main(int argc, char *argv[])
+using namespace std;
+
+int main()
 {
-    QCoreApplication a(argc, argv);
+    string url1, url2;
 
-    return a.exec();
+    return 0;
 }
