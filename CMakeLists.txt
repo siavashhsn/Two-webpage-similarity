@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 SET(CMAKE_CXX_FLAGS "-std=c++11")
 
-project(aa)
+project(save-webpages-source-code)
 
 file(GLOB_RECURSE ISOURCES "src/*.cpp")
 file(GLOB_RECURSE IHEADER "inc/*.hpp" "inc/*.h")
@@ -16,9 +16,9 @@ list(REMOVE_DUPLICATES IINCLUDE_DIRS)
 
 include_directories(${IINCLUDE_DIRS} ".")
 
-add_executable (aa main.cpp ${ISOURCES})
+add_executable (save-webpages-source-code main.cpp ${ISOURCES})
 
-target_link_libraries (aa)
+target_link_libraries (save-webpages-source-code curl)
 
 # set warnings level
 IF(MSVC) # MSVC compiler (Win32 only)

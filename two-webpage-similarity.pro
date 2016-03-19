@@ -11,6 +11,7 @@ QT       -= gui
 TARGET = two-webpage-similarity
 CONFIG   += console
 CONFIG   -= app_bundle
+#CONFIG   += c++11
 LIBS     += -lcurl
 
 TEMPLATE = app
