@@ -17,20 +17,20 @@ size_t writeCallback(char* buf, size_t size, size_t nmemb){
     return size*nmemb;
 }
 
-void sws(const string *s)
+void sws(const string& s)
 {
     CURL* curl;
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
 
-    curl_easy_setopt(curl, CURLOPT_URL, s);
+    curl_easy_setopt(curl, CURLOPT_URL, s.c_str());
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, &writeCallback);
     curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
-
-
-    string ss = *s + ".txt";
     curl_easy_perform(curl);
-    ofstream wtf (/*ss.c_str()*/"/home/siavash/Desktop/url1_contant.txt");
+
+
+    string ss = s + ".txt";
+    ofstream wtf (ss.c_str());
     wtf << data;
     wtf.close();
     curl_easy_cleanup(curl);

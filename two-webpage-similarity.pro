@@ -11,7 +11,7 @@ QT       -= gui
 TARGET = two-webpage-similarity
 CONFIG   += console
 CONFIG   -= app_bundle
-#CONFIG   += c++11
+CONFIG   += c++11
 LIBS     += -lcurl
 
 TEMPLATE = app
@@ -20,4 +20,6 @@ TEMPLATE = app
 SOURCES += main.cpp
 
 HEADERS += \
-    save-webpages-source-code.h
+    save-webpages-source-code.h \
+    stopwords.h \
+    stdafx.hpp

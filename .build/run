@@ -1,0 +1,2 @@
+#!/bin/bash
+clear && cmake .. && make -j16 && clear && ./save-webpages-source-code
