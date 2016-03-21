@@ -1,5 +1,5 @@
 #include "stdafx.hpp"
-#include "stopwords.h"
+#include "remove_s_T.h"
 #include "save-webpages-source-code.h"
 using namespace std;
 
@@ -9,8 +9,6 @@ int main()
 //    cin >> url1 >> url2;
 //    sws(url1);
 //    sws(url2);
-
-    stv();
 
     return 0;
 }

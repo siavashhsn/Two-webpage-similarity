@@ -21,5 +21,5 @@ SOURCES += main.cpp
 
 HEADERS += \
     save-webpages-source-code.h \
-    stopwords.h \
-    stdafx.hpp
+    stdafx.hpp \
+    remove_s_T.h
