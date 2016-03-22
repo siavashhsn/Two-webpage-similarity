@@ -24,6 +24,10 @@
 #include <fstream>
 #include <string>
 #include <stdexcept>
+#include "remove_s_T.h"
+#include "save-webpages-source-code.h"
+//#include "save-webpages-source-code.h"
+
 using namespace std;
 
 #define get_rand(min, range)((min) + rand() % (range))

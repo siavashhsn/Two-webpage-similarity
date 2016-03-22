@@ -1,3 +1,4 @@
+#include "stdafx.hpp"
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,7 +18,7 @@ size_t writeCallback(char* buf, size_t size, size_t nmemb){
     return size*nmemb;
 }
 
-void sws(const string& s)
+void sws(const string& s, string ss)
 {
     CURL* curl;
     curl_global_init(CURL_GLOBAL_ALL);
@@ -28,11 +29,10 @@ void sws(const string& s)
     curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
     curl_easy_perform(curl);
 
+    ofstream w (ss.c_str());
+    w << data;
+    w.close();
 
-    string ss = s + ".txt";
-    ofstream wtf (ss.c_str());
-    wtf << data;
-    wtf.close();
     curl_easy_cleanup(curl);
     curl_global_cleanup();
 }
