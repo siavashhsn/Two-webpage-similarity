@@ -1,9 +1,7 @@
 #include "stdafx.hpp"
-#include <boost/algorithm/string/split.hpp>
-#include <boost/algorithm/string/classification.hpp>
-#include <unordered_map>
 #include <regex>
-using namespace boost::algorithm;
+#include <string>
+#include <unordered_map>
 using namespace std;
 
 
@@ -53,7 +51,7 @@ string get_source_txt(string url)
     while(!ifs.eof())
     {
         ifs >> s;
-        ss+=s;
+        ss+=" "+s;
     }
     ifs.close();
     return ss;
@@ -61,24 +59,28 @@ string get_source_txt(string url)
 
 void r_tags()
 {
-    cout << endl << "*******************r-tags********************" << endl;
+    cout << endl << "*******************r-tags******************" << endl;
     string surl1, result1, surl2;
     surl1=get_source_txt("url1");
     surl2=get_source_txt("url2");
 
-    regex script{"<script*</script>"};
-    regex stylesheet{"<style*</style>"};
-    regex html_tags{"</?\\w+[^>]*>"};
+    regex parenthesis("[^[:alpha:]]")       //to remove non-alphanumeric characters
+        , rss("\\s")                        //to remove \s
+        , _script("<script(.*?)</script>")  //to remove <script> tags and stuff between them
+        , stylesheet{"<style(.*?)</style>"} //to remove <style> tags and stuff between them
+        , html_tags{"</?(.|\n)*?>"};        //to remove html tags
 
-    surl1 = regex_replace(surl1, script, string(" "));
-    //wToFile("url1s.txt", surl1);
-    surl1 = regex_replace(surl1, stylesheet, string(" "));
-    //wToFile("url1s.txt", surl1);
-    surl1 = regex_replace(surl1, html_tags, string(" "));
+    surl1 = regex_replace(surl1, rss, " ");
+    surl1 = regex_replace(surl1, _script, " ");
+    surl1 = regex_replace(surl1, stylesheet, " ");
+    surl1 = regex_replace(surl1, html_tags, " ");
+    surl1 = regex_replace(surl1, parenthesis, " ");
     wToFile("url1s.txt", surl1);
 
-    surl2 = regex_replace(surl2, script, string(" "));
-    surl2 = regex_replace(surl2, stylesheet, string(" "));
-    surl2 = regex_replace(surl2, html_tags, string(" "));
+    surl2 = regex_replace(surl2, rss, " ");
+    surl2 = regex_replace(surl2, _script, " ");
+    surl2 = regex_replace(surl2, stylesheet, " ");
+    surl2 = regex_replace(surl2, html_tags, " ");
+    surl2 = regex_replace(surl2, parenthesis, " ");
     wToFile("url2s.txt", surl2);
 }
