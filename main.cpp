@@ -1,4 +1,6 @@
 #include "stdafx.hpp"
+#include "remove_s_T.h"
+#include "save-webpages-source-code.h"
 using namespace std;
 
 int main()
