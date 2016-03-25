@@ -25,6 +25,7 @@
 #include <cstdlib>
 #include <stdio.h>
 #include <string.h>
+#include <boost/algorithm/string.hpp>
 
 #define TRUE 1
 #define FALSE 0
@@ -363,13 +364,17 @@ unordered_map<string,size_t> stemfile(FILE * f)
             if (!LETTER(ch)) { ungetc(ch,f); break; }
          }
          s[stem(s,0,i-1)+1] = 0;
+         if (ch == EOF) return us;
          /* the pevious line calls the stemmer and uses its result to
             zero-terminate the string in s */
          //printf("%s",s);
-         if(us.count(s))
-         	us[s]++;
+         string xs(s);
+         boost::trim(xs);
+         boost::to_lower(xs);
+         if(us.count(xs))
+            us[xs]++;
          else
-            us[s] = 0;
+            us[xs] = 1;
       } else { }
    }
 }

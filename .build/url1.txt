@@ -1,327 +1,205 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr" class="client-nojs">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>Boost (C++ libraries) - Wikipedia, the free encyclopedia</title>
-<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ = window.RLQ || []).push(function () {
-mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Boost_(C++_libraries)","wgTitle":"Boost (C++ libraries)","wgCurRevisionId":699764860,"wgRevisionId":699764860,"wgArticleId":711324,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from January 2013","Articles containing potentially dated statements from 2015","All articles containing potentially dated statements","C++","C++ libraries","Free computer libraries","Free software programmed in C++","Generic programming","Software using the Boost license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Boost_(C++_libraries)","wgRelevantArticleId":711324,"wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSAcceptLanguageList":["bg-bg"],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCentralAuthMobileDomain":false,"wgWikibaseItemId":"Q893105","wgVisualEditorToolbarScrollOffset":0}); /* @nomin */mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery ) {
-mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"}); /* @nomin */ ;
+<title>Lorem Ipsum - All the facts - Lipsum generator</title>
+<meta name="keywords" content="Lorem Ipsum, Lipsum, Lorem, Ipsum, Text, Generate, Generator, Facts, Information, What, Why, Where, Dummy Text, Typesetting, Printing, de Finibus, Bonorum et Malorum, de Finibus Bonorum et Malorum, Extremes of Good and Evil, Cicero, Latin, Garbled, Scrambled, Lorem ipsum dolor sit amet, dolor, sit amet, consectetur, adipiscing, elit, sed, eiusmod, tempor, incididunt" />
+<meta name="description" content="Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="en" />
+<script type="text/javascript" src="http://preamp-clients.header.tech/lipsum.js"></script>
+<link rel="shortcut icon" href="/favicon.ico" />
+<style type="text/css">
 
-});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","ext.centralNotice.bannerController","skins.vector.js"]);
-} );</script>
-<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.tmh.thumbnail.styles%7Cext.uls.nojs%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.raggett%2CsectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" />
-<meta name="ResourceLoaderDynamicStyles" content="" />
-<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector" />
-<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
-<meta name="generator" content="MediaWiki 1.27.0-wmf.17" />
-<meta name="referrer" content="origin-when-cross-origin" />
-<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)" />
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit" />
-<link rel="edit" title="Edit this page" href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit" />
-<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png" />
-<link rel="shortcut icon" href="/static/favicon/wikipedia.ico" />
-<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
-<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
-<link rel="canonical" href="https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)" />
-<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+#lipsum {font-size:11px;text-align:justify}
+#generated {font-size:11px;font-weight:bold;text-align:left}
+#lipsumta {font-size:11px;text-align:justify;font-family:Arial,Helvetica,sans;width:700px;height:300px;padding:3px 0px 3px 5px;border:1px solid #666;margin:0px 0px 5px 0px}
+
+a:link,a:visited,a:active {color:#000000}
+a:hover {color:#ff0000}
+
+body {background:url(/images/bg.png);font-family:Arial,Helvetica,sans}
+body,td,input,form,div {margin:0;font-size:11px;font-family:Arial,Helvetica,sans}
+#Outer {text-align:center}
+#Inner710 {width:710px;margin:0px auto;padding-bottom:10px}
+#Inner734 {width:734px;margin:0px auto;padding-bottom:10px}
+.bannerContainer {margin:15px auto; }
+#Languages {margin:20px 0px;clear:both}
+#Languages a {padding:1px 6px 1px 22px;font-size:11px;line-height:20px}
+#Languages a.zz, #Languages a.zz:hover {text-decoration:none;color:#000000}
+#Languages a.xx {padding:0px}
+#Languages img {vertical-align:middle;margin-right:4px}
+a.hy{background:url(/images/300811.png) no-repeat 0px -400px}
+a.sq{background:url(/images/300811.png) no-repeat 0px -760px}
+a.ar{background:url(/images/300811.png) no-repeat 0px -40px}
+a.bg{background:url(/images/300811.png) no-repeat 0px -80px}
+a.ca{background:url(/images/300811.png) no-repeat 0px -120px}
+a.hr{background:url(/images/300811.png) no-repeat 0px -360px}
+a.cs{background:url(/images/300811.png) no-repeat 0px -140px}
+a.da{background:url(/images/300811.png) no-repeat 0px -160px}
+a.nl{background:url(/images/300811.png) no-repeat 0px -560px}
+a.en{background:url(/images/300811.png) no-repeat 0px -220px}
+a.et{background:url(/images/300811.png) no-repeat 0px -260px}
+a.fi{background:url(/images/300811.png) no-repeat 0px -300px}
+a.fr{background:url(/images/300811.png) no-repeat 0px -320px}
+a.ka{background:url(/images/300811.png) no-repeat 0px -460px}
+a.de{background:url(/images/300811.png) no-repeat 0px -180px}
+a.el{background:url(/images/300811.png) no-repeat 0px -200px}
+a.he{background:url(/images/300811.png) no-repeat 0px -340px}
+a.hu{background:url(/images/300811.png) no-repeat 0px -380px}
+a.id{background:url(/images/300811.png) no-repeat 0px -420px}
+a.it{background:url(/images/300811.png) no-repeat 0px -440px}
+a.lv{background:url(/images/300811.png) no-repeat 0px -500px}
+a.lt{background:url(/images/300811.png) no-repeat 0px -480px}
+a.mk{background:url(/images/300811.png) no-repeat 0px -520px}
+a.ms{background:url(/images/300811.png) no-repeat 0px -540px}
+a.no{background:url(/images/300811.png) no-repeat 0px -580px}
+a.pl{background:url(/images/300811.png) no-repeat 0px -600px}
+a.pt{background:url(/images/300811.png) no-repeat 0px -620px}
+a.ro{background:url(/images/300811.png) no-repeat 0px -640px}
+a.ru{background:url(/images/300811.png) no-repeat 0px -660px}
+a.sr{background:url(/images/300811.png) no-repeat 0px -780px}
+a.sk{background:url(/images/300811.png) no-repeat 0px -700px}
+a.sl{background:url(/images/300811.png) no-repeat 0px -720px}
+a.es{background:url(/images/300811.png) no-repeat 0px -240px}
+a.sv{background:url(/images/300811.png) no-repeat 0px -800px}
+a.th{background:url(/images/300811.png) no-repeat 0px -840px}
+a.tr{background:url(/images/300811.png) no-repeat 0px -860px}
+a.uk{background:url(/images/300811.png) no-repeat 0px -880px}
+a.vi{background:url(/images/300811.png) no-repeat 0px -900px}
+
+#Packages a {margin:0px 5px}
+#Footer a {margin:10px;color:#808080}
+.lc {clear:left;float:left;width:348px}
+.rc {clear:right;float:right;width:348px}
+.lc div {float:left;text-align:left}
+.rc div {float:left;text-align:left}
+
+p {text-align:justify;font-size:11px;line-height:14px;margin:0px 0px 14px 0px;padding:0}
+
+h1,h2,h3,h4,h5 {margin:0;padding:0;font-weight:normal}
+h1 {background:url(/images/lorem.gif) no-repeat center top;height:60px}
+h1 span {display:none}
+h2 {font-size:12px;height:26px;text-align:left}
+h2 span {display:none}
+h2.what {background:url(/images/heading.gif) no-repeat 0px 0px}
+h2.where {background:url(/images/heading.gif) no-repeat 0px -26px}
+h2.why {background:url(/images/heading.gif) no-repeat 0px -52px}
+h2.getsome {background:url(/images/heading.gif) no-repeat 0px -78px}
+h3 {margin-bottom:14px;font-size:11px;font-weight:bold;text-align:left}
+h4 {margin-top:14px;font-size:13px;text-align:center;font-style:italic}
+h5 {margin-bottom:14px;font-size:11px;text-align:center}
+
+.box {clear:both;margin-top:6px;padding-top:6px;border-top:1px solid #666666}
+.banners {clear:both;margin-top:14px;padding-top:14px;border-top:1px solid #d0d0d0}
+.banners img {margin:2px}
+
+a.lnk:link,a.lnk:visited,a.lnk:active,a.lnk:hover {font-weight:bold;color:#ff0000}
+
+input#amount {width:40px;text-align:right}
+input#generate {width:160px;text-align:center;margin-top:15px}
+
+div.start {width:30px;margin-top:4px;margin-bottom:12px;text-align:center}
+
+#HdrLeft {float:left;text-align:left;width:160px}
+#HdrRight {float:right;text-align:right;width:160px;line-height:14px}
+
+#feedtable td {text-align:left;vertical-align:middle}
+#typetable td {text-align:left;vertical-align:middle;height:20px}
+
+#Partner {text-align:left;margin:0;padding:0}
+#Partner h1 {background:none;font-size:20px;height:20px;margin:0 0 10px 0;padding:0;font-weight:bold}
+#Partner h2 {background:none;font-size:14px;height:14px;margin:0 0 10px 0;padding:0;font-weight:bold}
+
+.ltr {direction:ltr;unicode-bidi:embed}
+
+</style>
+
 </head>
-<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Boost_C_libraries skin-vector action-view">
-		<div id="mw-page-base" class="noprint"></div>
-		<div id="mw-head-base" class="noprint"></div>
-		<div id="content" class="mw-body" role="main">
-			<a id="top"></a>
+<body>
 
-							<div id="siteNotice"><!-- CentralNotice --></div>
-						<div class="mw-indicators">
+<div id="Outer">
+
+<div class="bannerContainer">
+<!-- /15188745/Lipsum-Unit1 -->
+<div id="div-gpt-ad-1456148316198-0">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display("div-gpt-ad-1456148316198-0"); });
+</script>
 </div>
-			<h1 id="firstHeading" class="firstHeading" lang="en">Boost (C++ libraries)</h1>
-									<div id="bodyContent" class="mw-body-content">
-									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
-								<div id="contentSub"></div>
-												<div id="jump-to-nav" class="mw-jump">
-					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
-				</div>
-				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox vevent" style="width:22em">
-<caption class="summary">Boost (C++ libraries)</caption>
-<tr>
-<td colspan="2" style="text-align:center"><a href="/wiki/File:Boost.png" class="image"><img alt="Boost.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Boost.png/200px-Boost.png" width="200" height="62" srcset="//upload.wikimedia.org/wikipedia/commons/c/cd/Boost.png 1.5x, //upload.wikimedia.org/wikipedia/commons/c/cd/Boost.png 2x" data-file-width="277" data-file-height="86" /></a>
-<div>Boost logo</div>
-</td>
-</tr>
-<tr>
-<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
-<td>1.60.0 / December&#160;17, 2015<span class="noprint">; 2 months ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2015-12-17</span>)</span></td>
-</tr>
-<tr>
-<th scope="row" style="white-space: nowrap;">Written in</th>
-<td><a href="/wiki/C%2B%2B" title="C++">C++</a></td>
-</tr>
-<tr>
-<th scope="row" style="white-space: nowrap;"><a href="/wiki/List_of_software_categories" title="List of software categories">Type</a></th>
-<td><a href="/wiki/Library_(computing)" title="Library (computing)">Libraries</a></td>
-</tr>
-<tr>
-<th scope="row" style="white-space: nowrap;"><a href="/wiki/Software_license" title="Software license">License</a></th>
-<td><a href="#License">Boost Software License</a></td>
-</tr>
-<tr>
-<th scope="row" style="white-space: nowrap;">Website</th>
-<td><span class="url"><a rel="nofollow" class="external text" href="http://www.boost.org">www<wbr />.boost<wbr />.org</a></span></td>
-</tr>
-</table>
-<p><b>Boost</b> is a set of <a href="/wiki/Library_(computing)" title="Library (computing)">libraries</a> for the <a href="/wiki/C%2B%2B" title="C++">C++</a> programming language that provide support for tasks and structures such as <a href="/wiki/Linear_algebra" title="Linear algebra">linear algebra</a>, <a href="/wiki/Pseudorandom_number_generator" title="Pseudorandom number generator">pseudorandom number generation</a>, multithreading, <a href="/wiki/Image_processing" title="Image processing">image processing</a>, <a href="/wiki/Regular_expression" title="Regular expression">regular expressions</a>, and <a href="/wiki/Unit_testing" title="Unit testing">unit testing</a>. It contains over eighty individual libraries.</p>
-<p>Most of the Boost libraries are <a href="/wiki/Software_license" title="Software license">licensed</a> under the <a href="#License">Boost Software License</a>, designed to allow Boost to be used with both <a href="/wiki/Free_software" title="Free software">free</a> and <a href="/wiki/Proprietary_software" title="Proprietary software">proprietary software</a> projects. Many of Boost's founders are on the <a href="/wiki/ISO/IEC_14882" title="ISO/IEC 14882" class="mw-redirect">C++ standards</a> committee, and several Boost libraries have been accepted for incorporation into both the <a href="/wiki/C%2B%2B_Technical_Report_1" title="C++ Technical Report 1">C++ Technical Report 1</a> and the <a href="/wiki/C%2B%2B11" title="C++11">C++11</a> standard.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
-<p></p>
-<div id="toc" class="toc">
-<div id="toctitle">
-<h2>Contents</h2>
+<!-- -->
 </div>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#Design"><span class="tocnumber">1</span> <span class="toctext">Design</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Associated_people"><span class="tocnumber">2</span> <span class="toctext">Associated people</span></a></li>
-<li class="toclevel-1 tocsection-3"><a href="#License"><span class="tocnumber">3</span> <span class="toctext">License</span></a></li>
-<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
-<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
-<li class="toclevel-1 tocsection-6"><a href="#Further_reading"><span class="tocnumber">6</span> <span class="toctext">Further reading</span></a></li>
-<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
-</ul>
+
+<div id="Inner710">
+
+<div id="Languages"><a class="hy" href="http://hy.lipsum.com/">&#1344;&#1377;&#1397;&#1381;&#1408;&#1381;&#1398;</a> <a class="sq" href="http://sq.lipsum.com/">Shqip</a> <span class="ltr" dir="ltr"><a class="xx" href="http://ar.lipsum.com/"><img src="/images/ar/ar.gif" width="18" height="12" border="0" alt="&#8235;&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;" /></a><a class="xx" href="http://ar.lipsum.com/">&#8235;&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</a></span>&nbsp;&nbsp; <a class="bg" href="http://bg.lipsum.com/">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;</a> <a class="ca" href="http://ca.lipsum.com/">Catal&agrave;</a> <a class="hr" href="http://hr.lipsum.com/">Hrvatski</a> <a class="cs" href="http://cs.lipsum.com/">&#268;esky</a> <a class="da" href="http://da.lipsum.com/">Dansk</a> <a class="nl" href="http://nl.lipsum.com/">Nederlands</a> <a class="en zz" href="http://www.lipsum.com/">English</a> <br /><a class="et" href="http://et.lipsum.com/">Eesti</a> <a class="fi" href="http://fi.lipsum.com/">Suomi</a> <a class="fr" href="http://fr.lipsum.com/">Fran&ccedil;ais</a> <a class="ka" href="http://ka.lipsum.com/">&#4325;&#4304;&#4320;&#4311;&#4323;&#4314;&#4312;</a> <a class="de" href="http://de.lipsum.com/">Deutsch</a> <a class="el" href="http://el.lipsum.com/">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;</a> <span class="ltr" dir="ltr"><a class="xx" href="http://he.lipsum.com/"><img src="/images/he/he.gif" width="18" height="12" border="0" alt="&#8235;&#1506;&#1489;&#1512;&#1497;&#1514;" /></a><a class="xx" href="http://he.lipsum.com/">&#8235;&#1506;&#1489;&#1512;&#1497;&#1514;</a></span>&nbsp;&nbsp; <a class="hu" href="http://hu.lipsum.com/">Magyar</a> <a class="id" href="http://id.lipsum.com/">Indonesia</a> <a class="it" href="http://it.lipsum.com/">Italiano</a> <br /><a class="lv" href="http://lv.lipsum.com/">Latviski</a> <a class="lt" href="http://lt.lipsum.com/">Lietuvi&scaron;kai</a> <a class="mk" href="http://mk.lipsum.com/">&#1084;&#1072;&#1082;&#1077;&#1076;&#1086;&#1085;&#1089;&#1082;&#1080;</a> <a class="ms" href="http://ms.lipsum.com/">Melayu</a> <a class="no" href="http://no.lipsum.com/">Norsk</a> <a class="pl" href="http://pl.lipsum.com/">Polski</a> <a class="pt" href="http://pt.lipsum.com/">Portugu&ecirc;s</a> <a class="ro" href="http://ro.lipsum.com/">Rom&acirc;na</a> <a class="ru" href="http://ru.lipsum.com/">Pycc&#1082;&#1080;&#1081;</a> <br /><a class="sr" href="http://sr.lipsum.com/">&#1057;&#1088;&#1087;&#1089;&#1082;&#1080;</a> <a class="sk" href="http://sk.lipsum.com/">Sloven&#269;ina</a> <a class="sl" href="http://sl.lipsum.com/">Sloven&#353;&#269;ina</a> <a class="es" href="http://es.lipsum.com/">Espa&ntilde;ol</a> <a class="sv" href="http://sv.lipsum.com/">Svenska</a> <a class="th" href="http://th.lipsum.com/">&#3652;&#3607;&#3618;</a> <a class="tr" href="http://tr.lipsum.com/">T&uuml;rk&ccedil;e</a> <a class="uk" href="http://uk.lipsum.com/">&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;</a> <a class="vi" href="http://vi.lipsum.com/">Ti&#7871;ng Vi&#7879;t</a> </div>
+
+<div id="HdrLeft"></div>
+<div id="HdrRight"></div>
+<h1><span>Lorem Ipsum</span></h1>
+
+<h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+<h5>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
+<div><div class="lc"><h2 class="what"><span>What is Lorem Ipsum?</span></h2><p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div><div class="rc"><h2 class="why"><span>Why do we use it?</span></h2><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p></div></div>&nbsp;<div style="clear:both;"><div class="lc"><h2 class="where"><span>Where does it come from?</span></h2><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p></div><div class="rc"><h2 class="getsome"><span>Where can I get some?</span></h2><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p><form method="post" action="/feed/html"><table border="0" cellpadding="0" cellspacing="0" id="feedtable" width="100%"><tr><td width="25%" style="text-align:center;"><input type="text" name="amount" value="5" size="3" id="amount" /></td><td width="30%"><table border="0" cellpadding="0" cellspacing="0" id="typetable" align="left"><tr><td width="20"><input type="radio" name="what" value="paras" id="paras" checked="checked" /></td><td><label for="paras">paragraphs</label></td></tr><tr><td width="20"><input type="radio" name="what" value="words" id="words" /></td><td><label for="words">words</label></td></tr><tr><td width="20"><input type="radio" name="what" value="bytes" id="bytes" /></td><td><label for="bytes">bytes</label></td></tr><tr><td width="20"><input type="radio" name="what" value="lists" id="lists" /></td><td><label for="lists">lists</label></td></tr></table></td><td width="45%"><div><div class="start"><input type="checkbox" name="start" value="yes" checked="checked" id="start" /></div> <label for="start">Start with 'Lorem<br />ipsum dolor sit amet...'</label></div><input type="submit" name="generate" id="generate" value="Generate Lorem Ipsum" /></td></tr></table></form></div></div>&nbsp;<div class="box"><a href="/116/1458826961/https://ding.io" target="_blank" rel="nofollow"><img src="/banners/ding.png" width="700" height="70" border="0" alt="Time tracking for freelancers" /></a></div>
+<div class="box" style="color:#ff0000;"><strong>Translations:</strong> Can you help translate this site into a foreign language ? Please email us with details if you can help.</div>
+
+<div class="box">There are now a set of mock banners available <a href="/banners" class="lnk">here</a> in three colours and in a range of standard banner sizes:<br /><a href="/banners"><img src="/images/banners/black_234x60.gif" width="234" height="60" border="0" alt="Banners" style="margin-top:5px;" /></a>&nbsp;<a href="/banners"><img src="/images/banners/grey_234x60.gif" width="234" height="60" border="0" alt="Banners" style="margin-top:5px;" /></a>&nbsp;<a href="/banners"><img src="/images/banners/white_234x60.gif" width="234" height="60" border="0" alt="Banners" style="margin-top:5px;" /></a></div>
+
+<div class="box"><strong>Donate:</strong> If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click <a target="_blank" href="/donate" class="lnk">here</a> to donate using PayPal. Thank you for your support.</div>
+
+<div class="box" id="Packages">
+<a target="_blank" rel="nofollow" href="https://chrome.google.com/extensions/detail/jkkggolejkaoanbjnmkakgjcdcnpfkgi">Chrome</a>
+<a target="_blank" rel="nofollow" href="https://addons.mozilla.org/en-US/firefox/addon/dummy-lipsum/">Firefox Add-on</a>
+<a target="_blank" rel="nofollow" href="https://github.com/traviskaufman/node-lipsum">NodeJS</a>
+<a target="_blank" rel="nofollow" href="http://ftp.ktug.or.kr/tex-archive/help/Catalogue/entries/lipsum.html">TeX Package</a>
+<a target="_blank" rel="nofollow" href="http://code.google.com/p/pypsum/">Python Interface</a>
+<a target="_blank" rel="nofollow" href="http://gtklipsum.sourceforge.net/">GTK Lipsum</a>
+<a target="_blank" rel="nofollow" href="http://github.com/gsavage/lorem_ipsum/tree/master">Rails</a>
+<a target="_blank" rel="nofollow" href="http://groovyconsole.appspot.com/script/64002">Groovy</a>
+<a target="_blank" ref="nofollow" href="http://www.layerhero.com/lorem-ipsum-generator/">Adobe Plugin</a>
 </div>
-<p></p>
-<h2><span class="mw-headline" id="Design">Design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=1" title="Edit section: Design">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>The libraries are aimed at a wide range of C++ users and application domains. They range from general-purpose libraries like the <a href="/wiki/Smart_pointer" title="Smart pointer">smart pointer</a> library, to <a href="/wiki/Operating_system" title="Operating system">operating system</a> abstractions like <i>Boost FileSystem</i>, to libraries primarily aimed at other library developers and advanced C++ users, like the <a href="/wiki/Template_metaprogramming" title="Template metaprogramming">template metaprogramming</a> (MPL) and <a href="/wiki/Domain-specific_language" title="Domain-specific language">domain-specific language</a> (DSL) creation (Proto).</p>
-<p>In order to ensure efficiency and flexibility, Boost makes extensive use of <a href="/wiki/Template_(C%2B%2B)" title="Template (C++)">templates</a>. Boost has been a source of extensive work and research into <a href="/wiki/Generic_programming" title="Generic programming">generic programming</a> and <a href="/wiki/Metaprogramming" title="Metaprogramming">metaprogramming</a> in C++.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (January 2013)">citation needed</span></a></i>]</sup></p>
-<p>Most Boost libraries are <a href="/wiki/Header_file" title="Header file" class="mw-redirect">header</a> based, consisting of <a href="/wiki/Inline_function" title="Inline function">inline functions</a> and templates, and as such do not need to be built in advance of their use. Some Boost libraries coexist as independent libraries.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
-<h2><span class="mw-headline" id="Associated_people">Associated people</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=2" title="Edit section: Associated people">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Original founders of Boost still active in the community include Beman Dawes and <a href="/wiki/David_Abrahams_(computer_programmer)" title="David Abrahams (computer programmer)">David Abrahams</a>. Author of several books on C++, Nicolai Josuttis contributed the Boost <a href="/wiki/Array_(C%2B%2B)" title="Array (C++)" class="mw-redirect">array</a> library in 2001. There are mailing lists devoted to Boost library use and library development, active as of 2015<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit">[update]</a></sup>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
-<h2><span class="mw-headline" id="License">License</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=3" title="Edit section: License">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<p>Boost is licensed under its own <a href="/wiki/Free_software" title="Free software">free</a>, <a href="/wiki/Open-source_license" title="Open-source license">open-source license</a>, known as the Boost Software License. It is a permissive license in the style of the <a href="/wiki/BSD_license" title="BSD license" class="mw-redirect">BSD license</a> and the <a href="/wiki/MIT_license" title="MIT license" class="mw-redirect">MIT license</a>. The license has been <a href="/wiki/Open_Source_Initiative" title="Open Source Initiative">OSI-approved</a> since February 2008<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> and is considered a <a href="/wiki/Free_software_license" title="Free software license">free software license</a>, <a href="/wiki/License_compatibility" title="License compatibility">compatible</a> with the <a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GNU General Public License</a>, by the <a href="/wiki/Free_Software_Foundation" title="Free Software Foundation">Free Software Foundation</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
-<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=4" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="noprint portal tright" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 1em">
-<table style="background:#f9f9f9;font-size:85%;line-height:110%;max-width:175px">
-<tr style="vertical-align:middle">
-<td style="text-align:center"><a href="/wiki/File:Free_and_open-source_software_logo_(2009).svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/28px-Free_and_open-source_software_logo_%282009%29.svg.png" width="28" height="28" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/42px-Free_and_open-source_software_logo_%282009%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/31/Free_and_open-source_software_logo_%282009%29.svg/56px-Free_and_open-source_software_logo_%282009%29.svg.png 2x" data-file-width="512" data-file-height="512" /></a></td>
-<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold"><a href="/wiki/Portal:Free_software" title="Portal:Free software">Free software portal</a></td>
-</tr>
-</table>
+
+<div class="box">
+<h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<h3>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+<h3>1914 translation by H. Rackham</h3>
+<p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+<h3>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+<h3>1914 translation by H. Rackham</h3>
+<p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."</p>
 </div>
-<ul>
-<li><a href="/wiki/GLib" title="GLib">GLib</a> – the equivalent upon which <a href="/wiki/GNOME" title="GNOME">GNOME</a> is built</li>
-<li><a href="/wiki/KDE_Frameworks" title="KDE Frameworks" class="mw-redirect">KDE Frameworks</a> – the equivalent upon which <a href="/wiki/KDE_Software_Compilation" title="KDE Software Compilation">KDE Software Compilation</a> is built</li>
-<li><a href="/wiki/Apache_Portable_Runtime" title="Apache Portable Runtime">Apache Portable Runtime</a> – used by the <a href="/wiki/Apache_HTTP_Server" title="Apache HTTP Server">Apache HTTP Server</a></li>
-<li><a href="/wiki/Standard_Template_Library" title="Standard Template Library">Standard Template Library</a></li>
-<li><a href="/wiki/List_of_C%2B%2B_template_libraries" title="List of C++ template libraries">List of C++ template libraries</a></li>
-</ul>
-<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=5" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
-<ol class="references">
-<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.open-std.org/jtc1/sc22/wg21/docs/library_technical_report.html">"Library Technical Report"</a>. JTC1/SC22/WG21 - The C++ Standards Committee. 2 July 2003<span class="reference-accessdate">. Retrieved <span class="nowrap">1 February</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Library+Technical+Report&amp;rft.date=2003-07-02&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.open-std.org%2Fjtc1%2Fsc22%2Fwg21%2Fdocs%2Flibrary_technical_report.html&amp;rft.pub=JTC1%2FSC22%2FWG21+-+The+C%2B%2B+Standards+Committee&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://think-async.com/Asio">"Asio web site"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Asio+web+site&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fthink-async.com%2FAsio&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://boost-spirit.com/home/">"Spirit web-site"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Spirit+web-site&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fboost-spirit.com%2Fhome%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.boost.org/community/groups.html">"Boost Mailing Lists (A.K.A. Discussion Groups)"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">30 October</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Boost+Mailing+Lists+%28A.K.A.+Discussion+Groups%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.boost.org%2Fcommunity%2Fgroups.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://thread.gmane.org/gmane.comp.lib.boost.devel/178539">"Boost mailing list archive"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Boost+mailing+list+archive&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fthread.gmane.org%2Fgmane.comp.lib.boost.devel%2F178539&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://opensource.org/licenses/BSL-1.0">"Boost Software License 1.0 (BSL-1.0) | Open Source Initiative"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Boost+Software+License+1.0+%28BSL-1.0%29+%7C+Open+Source+Initiative&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fopensource.org%2Flicenses%2FBSL-1.0&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.gnu.org/licenses/license-list.html#boost">"Various Licenses and Comments about Them - GNU Project - Free Software Foundation (FSF)"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.btitle=Various+Licenses+and+Comments+about+Them+-+GNU+Project+-+Free+Software+Foundation+%28FSF%29&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Flicense-list.html%23boost&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
-</ol>
+<div class="box"><img src="/images/email.gif" width="87" height="14" alt="" style="margin:6px;" /></div>
+
+<div id="Footer">
+<a href="/azure-billing">Azure Billing</a><a target="_blank" href="http://www.f3events.co.uk" title="Triathlon Duathlon Running Swiming Events">F3 Events</a></div>
+
+
 </div>
-<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=6" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<ul>
-<li><cite class="citation book">Demming, Robert &amp; Duffy, Daniel J. (2010). <i>Introduction to the Boost C++ Libraries</i>. Volume 1 - Foundations. Datasim. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-94-91028-01-4" title="Special:BookSources/978-94-91028-01-4">978-94-91028-01-4</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.au=Duffy%2C+Daniel+J.&amp;rft.aufirst=Robert&amp;rft.aulast=Demming&amp;rft.btitle=Introduction+to+the+Boost+C%2B%2B+Libraries&amp;rft.date=2010&amp;rft.genre=book&amp;rft.isbn=978-94-91028-01-4&amp;rft.pub=Datasim&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Demming, Robert &amp; Duffy, Daniel J. (2012). <i>Introduction to the Boost C++ Libraries</i>. Volume 2 - Advanced Libraries. Datasim. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-94-91028-02-1" title="Special:BookSources/978-94-91028-02-1">978-94-91028-02-1</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.au=Duffy%2C+Daniel+J.&amp;rft.aufirst=Robert&amp;rft.aulast=Demming&amp;rft.btitle=Introduction+to+the+Boost+C%2B%2B+Libraries&amp;rft.date=2012&amp;rft.genre=book&amp;rft.isbn=978-94-91028-02-1&amp;rft.pub=Datasim&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Mukherjee, Arindam (2015). <i>Learning Boost C++ Libraries</i>. Packt. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-78355-121-7" title="Special:BookSources/978-1-78355-121-7">978-1-78355-121-7</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.aufirst=Arindam&amp;rft.aulast=Mukherjee&amp;rft.btitle=Learning+Boost+C%2B%2B+Libraries&amp;rft.date=2015&amp;rft.genre=book&amp;rft.isbn=978-1-78355-121-7&amp;rft.pub=Packt&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Polukhin, Antony (2013). <i>Boost C++ Application Development Cookbook</i>. Packt. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-84951-488-0" title="Special:BookSources/978-1-84951-488-0">978-1-84951-488-0</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.aufirst=Antony&amp;rft.aulast=Polukhin&amp;rft.btitle=Boost+C%2B%2B+Application+Development+Cookbook&amp;rft.date=2013&amp;rft.genre=book&amp;rft.isbn=978-1-84951-488-0&amp;rft.pub=Packt&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Schäling, Boris (2011). <i>The Boost C++ Libraries</i>. XML Press. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-9822191-9-5" title="Special:BookSources/978-0-9822191-9-5">978-0-9822191-9-5</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.aufirst=Boris&amp;rft.aulast=Sch%C3%A4ling&amp;rft.btitle=The+Boost+C%2B%2B+Libraries&amp;rft.date=2011&amp;rft.genre=book&amp;rft.isbn=978-0-9822191-9-5&amp;rft.pub=XML+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Schäling, Boris (2014). <i>The Boost C++ Libraries</i> (2 ed.). XML Press. p.&#160;570. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-9374343-6-6" title="Special:BookSources/978-1-9374343-6-6">978-1-9374343-6-6</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.aufirst=Boris&amp;rft.aulast=Sch%C3%A4ling&amp;rft.btitle=The+Boost+C%2B%2B+Libraries&amp;rft.date=2014&amp;rft.edition=2&amp;rft.genre=book&amp;rft.isbn=978-1-9374343-6-6&amp;rft.pages=570&amp;rft.pub=XML+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-<li><cite class="citation book">Siek, Jeremy G.; Lee, Lie-Quan &amp; Lumsdaine, Andrew (2001). <i>The Boost Graph Library: User Guide and Reference Manual</i>. Addison-Wesley. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0-201-72914-6" title="Special:BookSources/978-0-201-72914-6">978-0-201-72914-6</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ABoost+%28C%2B%2B+libraries%29&amp;rft.aufirst=Jeremy+G.&amp;rft.aulast=Siek&amp;rft.au=Lee%2C+Lie-Quan&amp;rft.au=Lumsdaine%2C+Andrew&amp;rft.btitle=The+Boost+Graph+Library%3A+User+Guide+and+Reference+Manual&amp;rft.date=2001&amp;rft.genre=book&amp;rft.isbn=978-0-201-72914-6&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
-</ul>
-<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
-<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9">
-<tr>
-<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" data-file-width="400" data-file-height="400" /></td>
-<td class="mbox-text plainlist">The Wikibook <i><a href="//en.wikibooks.org/wiki/C%2B%2B_Programming" class="extiw" title="wikibooks:C++ Programming">C++ Programming</a></i> has a page on the topic of: <i><b><a href="//en.wikibooks.org/wiki/C%2B%2B_Programming/Libraries/Boost" class="extiw" title="wikibooks:C++ Programming/Libraries/Boost">Libraries/Boost</a></b></i></td>
-</tr>
-</table>
-<ul>
-<li><span class="official-website"><span class="url"><a rel="nofollow" class="external text" href="http://www.boost.org">Official website</a></span></span></li>
-</ul>
 
+<div class="bannerContainer">
+<!-- /15188745/Lipsum-unit2 -->
+<div id="div-gpt-ad-1456148316198-1">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display("div-gpt-ad-1456148316198-1"); });
+</script>
+</div>
+</div>
 
-<!-- 
-NewPP limit report
-Parsed by mw1257
-Cached time: 20160222203312
-Cache expiry: 2592000
-Dynamic content: false
-CPU time usage: 0.274 seconds
-Real time usage: 0.356 seconds
-Preprocessor visited node count: 1394/1000000
-Preprocessor generated node count: 0/1500000
-Post‐expand include size: 27603/2097152 bytes
-Template argument size: 1939/2097152 bytes
-Highest expansion depth: 19/40
-Expensive parser function count: 3/500
-Lua time usage: 0.123/10.000 seconds
-Lua memory usage: 4.37 MB/50 MB
-Number of Wikibase entities loaded: 1-->
+</div>
 
-<!-- 
-Transclusion expansion time report (%,ms,calls,template)
-100.00%  310.013      1 - -total
- 28.68%   88.902      1 - Template:Infobox_software
- 26.87%   83.307      1 - Template:Infobox
- 23.38%   72.479      1 - Template:Reflist
- 18.21%   56.440      7 - Template:Cite_web
- 12.91%   40.009      1 - Template:Citation_needed
- 11.14%   34.544      1 - Template:Start_date_and_age
- 10.82%   33.550      1 - Template:Fix
-  9.50%   29.453      2 - Template:Category_handler
-  9.22%   28.593      7 - Template:Cite_book
--->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15036679-1");
+pageTracker._setDomainName(".lipsum.com");
+pageTracker._trackPageview();
+} catch(err) {}</script>
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:711324-0!*!0!!en!4!* and timestamp 20160222203311 and revision id 699764860
- -->
-<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
-						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;oldid=699764860">https://en.wikipedia.org/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;oldid=699764860</a>"					</div>
-				<div id='catlinks' class='catlinks' data-mw='interface'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:C%2B%2B" title="Category:C++">C++</a></li><li><a href="/wiki/Category:C%2B%2B_libraries" title="Category:C++ libraries">C++ libraries</a></li><li><a href="/wiki/Category:Free_computer_libraries" title="Category:Free computer libraries">Free computer libraries</a></li><li><a href="/wiki/Category:Free_software_programmed_in_C%2B%2B" title="Category:Free software programmed in C++">Free software programmed in C++</a></li><li><a href="/wiki/Category:Generic_programming" title="Category:Generic programming">Generic programming</a></li><li><a href="/wiki/Category:Software_using_the_Boost_license" title="Category:Software using the Boost license">Software using the Boost license</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_January_2013" title="Category:Articles with unsourced statements from January 2013">Articles with unsourced statements from January 2013</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2015" title="Category:Articles containing potentially dated statements from 2015">Articles containing potentially dated statements from 2015</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li></ul></div></div>				<div class="visualClear"></div>
-							</div>
-		</div>
-		<div id="mw-navigation">
-			<h2>Navigation menu</h2>
-
-			<div id="mw-head">
-									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
-						<h3 id="p-personal-label">Personal tools</h3>
-						<ul>
-							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Boost+%28C%2B%2B+libraries%29&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Boost+%28C%2B%2B+libraries%29" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
-					</div>
-									<div id="left-navigation">
-										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
-						<h3 id="p-namespaces-label">Namespaces</h3>
-						<ul>
-															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Boost_(C%2B%2B_libraries)"  title="View the content page [c]" accesskey="c">Article</a></span></li>
-															<li  id="ca-talk"><span><a href="/wiki/Talk:Boost_(C%2B%2B_libraries)"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
-													</ul>
-					</div>
-										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
-												<h3 id="p-variants-label">
-							<span>Variants</span><a href="#"></a>
-						</h3>
-
-						<div class="menu">
-							<ul>
-															</ul>
-						</div>
-					</div>
-									</div>
-				<div id="right-navigation">
-										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
-						<h3 id="p-views-label">Views</h3>
-						<ul>
-															<li id="ca-view" class="selected"><span><a href="/wiki/Boost_(C%2B%2B_libraries)" >Read</a></span></li>
-															<li id="ca-edit"><span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
-															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
-													</ul>
-					</div>
-										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
-						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
-
-						<div class="menu">
-							<ul>
-															</ul>
-						</div>
-					</div>
-										<div id="p-search" role="search">
-						<h3>
-							<label for="searchInput">Search</label>
-						</h3>
-
-						<form action="/w/index.php" id="searchform">
-							<div id="simpleSearch">
-							<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" />							</div>
-						</form>
-					</div>
-									</div>
-			</div>
-			<div id="mw-panel">
-				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
-						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
-			<h3 id='p-navigation-label'>Navigation</h3>
-
-			<div class="body">
-									<ul>
-						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
-							</div>
-		</div>
-			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
-			<h3 id='p-interaction-label'>Interaction</h3>
-
-			<div class="body">
-									<ul>
-						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
-							</div>
-		</div>
-			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
-			<h3 id='p-tb-label'>Tools</h3>
-
-			<div class="body">
-									<ul>
-						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Boost_(C%2B%2B_libraries)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Boost_(C%2B%2B_libraries)" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;oldid=699764860" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q893105" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Boost_%28C%2B%2B_libraries%29&amp;id=699764860" title="Information on how to cite this page">Cite this page</a></li>					</ul>
-							</div>
-		</div>
-			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
-			<h3 id='p-coll-print_export-label'>Print/export</h3>
-
-			<div class="body">
-									<ul>
-						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Boost+%28C%2B%2B+libraries%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Boost+%28C%2B%2B+libraries%29&amp;returnto=Boost+%28C%2B%2B+libraries%29&amp;oldid=699764860&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
-							</div>
-		</div>
-			<div class="portal" role="navigation" id='p-wikibase-otherprojects' aria-labelledby='p-wikibase-otherprojects-label'>
-			<h3 id='p-wikibase-otherprojects-label'>In other projects</h3>
-
-			<div class="body">
-									<ul>
-						<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Boost" hreflang="en">Wikimedia Commons</a></li>					</ul>
-							</div>
-		</div>
-			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
-			<h3 id='p-lang-label'>Languages</h3>
-
-			<div class="body">
-									<ul>
-						<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Boost_(C%2B%2B-Bibliothek)" title="Boost (C++-Bibliothek) – German" lang="de" hreflang="de">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Bibliotecas_Boost" title="Bibliotecas Boost – Spanish" lang="es" hreflang="es">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="//fa.wikipedia.org/wiki/%D8%A8%D9%88%D8%B3%D8%AA_(%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%B3%DB%8C%2B%2B)" title="بوست (کتابخانه‌های سی++) – Persian" lang="fa" hreflang="fa">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/Boost_(biblioth%C3%A8ques)" title="Boost (bibliothèques) – French" lang="fr" hreflang="fr">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/Boost" title="Boost – Korean" lang="ko" hreflang="ko">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/Boost_(C%2B%2B)" title="Boost (C++) – Italian" lang="it" hreflang="it">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="//he.wikipedia.org/wiki/Boost" title="Boost – Hebrew" lang="he" hreflang="he">עברית</a></li><li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/Boost" title="Boost – Dutch" lang="nl" hreflang="nl">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/Boost" title="Boost – Japanese" lang="ja" hreflang="ja">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="//no.wikipedia.org/wiki/Boost_(C%2B%2B_bibliotek)" title="Boost (C++ bibliotek) – Norwegian" lang="no" hreflang="no">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="//pl.wikipedia.org/wiki/Boost" title="Boost – Polish" lang="pl" hreflang="pl">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Biblioteca_Boost" title="Biblioteca Boost – Portuguese" lang="pt" hreflang="pt">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/Boost" title="Boost – Russian" lang="ru" hreflang="ru">Русский</a></li><li class="interlanguage-link interwiki-uk"><a href="//uk.wikipedia.org/wiki/Boost" title="Boost – Ukrainian" lang="uk" hreflang="uk">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/Boost_C%2B%2B_Libraries" title="Boost C++ Libraries – Chinese" lang="zh" hreflang="zh">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li>					</ul>
-				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="//www.wikidata.org/wiki/Q893105#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
-		</div>
-				</div>
-		</div>
-		<div id="footer" role="contentinfo">
-							<ul id="footer-info">
-											<li id="footer-info-lastmod"> This page was last modified on 14 January 2016, at 09:31.</li>
-											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
-additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
-									</ul>
-							<ul id="footer-places">
-											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wmf:Privacy policy">Privacy policy</a></li>
-											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
-											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
-											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
-											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
-											<li id="footer-places-cookiestatement"><a href="//wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
-											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Boost_(C%2B%2B_libraries)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
-									</ul>
-										<ul id="footer-icons" class="noprint">
-											<li id="footer-copyrightico">
-							<a href="//wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
-											<li id="footer-poweredbyico">
-							<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a>						</li>
-									</ul>
-						<div style="clear:both"></div>
-		</div>
-		<script>(window.RLQ = window.RLQ || []).push(function () {
-mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","user":"ready","user.groups":"ready"});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.eventLogging.subscriber","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.wikimediaEvents","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage"]);
-} );</script><script>(window.RLQ = window.RLQ || []).push(function () {
-mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1213"}); /* @nomin */
-} );</script>
-	</body>
+</body>
 </html>

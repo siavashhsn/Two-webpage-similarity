@@ -124,16 +124,6 @@ void r_tags()
     murl2 = stemfile(u2);
     free(s);
 
-//    cout<<"\n[MURL1]"<<endl;
-//    for(auto x:murl2) {
-//        cout<<x.first<< " "<<x.second<<endl;
-//    }
-//    cout<<"\n\n[MURL2]\n"<<endl;
-
-//    for(auto x:murl2) {
-//        cout<<x.first<< " "<<x.second<<endl;
-//    }
-
     sw = r_stopw();
     for(auto& i:sw)
     {

@@ -20,6 +20,7 @@ size_t writeCallback(char* buf, size_t size, size_t nmemb){
 
 void sws(const string& s, string ss)
 {
+
     CURL* curl;
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
@@ -35,4 +36,5 @@ void sws(const string& s, string ss)
 
     curl_easy_cleanup(curl);
     curl_global_cleanup();
+    data="";
 }
