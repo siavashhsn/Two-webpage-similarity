@@ -337,19 +337,21 @@ void increase_s()
 }
 
 #include <unordered_map>
+#include "removestuff.h"
 #define UC(ch) (ch <= 'Z' && ch >= 'A')
 #define LC(ch) (ch <= 'z' && ch >= 'a')
 #define LETTER(ch) (UC(ch) || LC(ch))
 #define FORCELC(ch) (ch-('A'-'a'))
 using namespace std;
+unordered_map<string,size_t> r_stopw();
 
-unordered_map<string,size_t> stemfile(FILE * f)
+void stemfile(FILE * f, unordered_map<string,size_t>& murl)
 {  
-    std::unordered_map<string, size_t> us;
+    unordered_map<string,size_t> stopw = r_stopw();
 	while(TRUE)
     {
       int ch = getc(f);
-      if (ch == EOF) return us;
+      if (ch == EOF) return;
       if (LETTER(ch))
       {  int i = 0;
          while(TRUE)
@@ -364,18 +366,20 @@ unordered_map<string,size_t> stemfile(FILE * f)
             if (!LETTER(ch)) { ungetc(ch,f); break; }
          }
          s[stem(s,0,i-1)+1] = 0;
-         if (ch == EOF) return us;
+         if (ch == EOF) return;
          /* the pevious line calls the stemmer and uses its result to
             zero-terminate the string in s */
          //printf("%s",s);
          string xs(s);
          boost::trim(xs);
          boost::to_lower(xs);
-         if(us.count(xs))
-            us[xs]++;
-         else
-            us[xs] = 1;
-      } else { }
+         if(!stopw.count(xs)) {
+             if(murl.count(xs))
+                murl[xs]++;
+             else
+                murl[xs] = 1;
+          } else { }
+      }
    }
 }
 
