@@ -22,6 +22,5 @@ SOURCES += main.cpp
 HEADERS += \
     save-webpages-source-code.h \
     stdafx.hpp \
-    remove_s_T.h \
-    ../../../Desktop/porter.hpp \
-    porter.hpp
+    porter.hpp \
+    removestuff.h
