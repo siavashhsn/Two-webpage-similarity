@@ -18,6 +18,11 @@ size_t writeCallback(char* buf, size_t size, size_t nmemb){
     return size*nmemb;
 }
 
+/**
+ * @brief sws get and save source code into a file
+ * @param s
+ * @param ss
+ */
 void sws(const string& s, string ss)
 {
 

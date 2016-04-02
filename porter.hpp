@@ -343,11 +343,11 @@ void increase_s()
 #define LETTER(ch) (UC(ch) || LC(ch))
 #define FORCELC(ch) (ch-('A'-'a'))
 using namespace std;
-unordered_map<string,size_t> r_stopw();
+unordered_map<string,size_t> stopw();
 
 void stemfile(FILE * f, unordered_map<string,size_t>& murl)
 {  
-    unordered_map<string,size_t> stopw = r_stopw();
+    unordered_map<string,size_t> stw = stopw();
 	while(TRUE)
     {
       int ch = getc(f);
@@ -373,7 +373,9 @@ void stemfile(FILE * f, unordered_map<string,size_t>& murl)
          string xs(s);
          boost::trim(xs);
          boost::to_lower(xs);
-         if(!stopw.count(xs)) {
+         //used stop words map to see if that word are stopword or not
+         //if it is don't insert it in main map.
+         if(!stw.count(xs)) {
              if(murl.count(xs))
                 murl[xs]++;
              else
@@ -386,15 +388,3 @@ void stemfile(FILE * f, unordered_map<string,size_t>& murl)
 #pragma GCC diagnostic pop
 
 #endif
-
-//int main(int argc, char * argv[])
-//{  int i;
-//   s = (char *) malloc(i_max+1);
-//   for (i = 1; i < argc; i++)
-//   {  FILE * f = fopen(argv[i],"r");
-//      if (f == 0) { fprintf(stderr,"File %s not found\n",argv[i]); exit(1); }
-//      stemfile(f);
-//   }
-//   free(s);
-//   return 0;
-//}
