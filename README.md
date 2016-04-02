@@ -2,7 +2,7 @@
 
 written in ubuntu 14.04
 
-projects main files are:
+projects main files are: \n
 main.cpp
 porter.hpp
 removestuff.h
